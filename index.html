@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun Zone</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/Index/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- bs5-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <!-- font family -->
+  <link href='https://fonts.googleapis.com/css?family=Eczar' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+  <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- animation css  -->
+  <link rel="stylesheet" href="css/Index/animation.css">
+  <!-- @meida fire css -->
+  <link rel="stylesheet" href="css/Index/mediafire.css">
+  <!-- hover css -->
+  <link rel="stylesheet" href="css/Index/hover.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- hover cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+  <!-- aos animation cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+   <!-- autocomplete -->
+   <link rel="stylesheet" href="files/autocompletefiles/jquery-ui.css">
+   <link rel="stylesheet" href="files/autocompletefiles/jquery-ui.min.css">
+   <link rel="stylesheet" href="files/autocompletefiles/jquery-ui.structure.css">
+   <link rel="stylesheet" href="files/autocompletefiles/jquery-ui.structure.min.css">
+   <link rel="stylesheet" href="files/autocompletefiles/jquery-ui.theme.css">
+   <link rel="stylesheet" href="files/autocompletefiles/jquery-ui.theme.min.css">
+</head>
+
+<body>
+
+  <!--  navbar  -->
+  <!-- caro  -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/funzone1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/funzone2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/funzone3.avif" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+
+  </div>
+  <!-- nav -->
+  <div id="nav" class="nav">
+    <div class="logo scale-in-ver-top">
+      <h1>Fun/Zone</h1>
+    </div>
+    <div id="elements" class="elements scale-in-ver-top">
+      <a href="index.html" class="elements1">Home</a>
+      <a href="attraction.html" class="elements1">Attractions</a>
+      <a href="foods.html" class="elements1">Foods & Drinks</a>
+      <a href="tickets.html" class="elements1">Tickets</a>
+      <a href="events.html" class="elements1">Events</a>
+      <a href="about.html" class="elements1">About Us</a>
+      <a href="contact.html" class="elements1">Contact Us</a>
+    </div>
+    <div class="social_links scale-in-ver-top ">
+      <input id="input" type="search" placeholder="Search">
+      <i id="search" class="fa fa-search"></i>
+      <a href="login.html"><i id="login" class="fa fa-user"></i></a>
+    </div>
+  </div>
+
+  <!-- second nav -->
+  <nav id="second_nav" class="navbar navbar-dark  fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Fun/Zone</a>
+      <button id="navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span id="navbar-toggler-icon" class="navbar-toggler-icon text-white"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Fun/Zone</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="attraction.html">Attraction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="foods.html">Food & Drinks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tickets.html">Tickets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Sign-up</a>
+            </li>
+
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- caro section -->
+  <div class="container-fluid caro_section ps-0 pe-0 swing-in-top-fwd " id="caro_section">
+    <div class="row">
+      <div class="col-12">
+        <div class="detail">
+          <h1>Welcome</h1>
+          <span>Welcome to FunZone, where the fun never ends! Dive into a world of excitement, laughter, and endless
+            entertainment. Get ready to unleash your imagination and create unforgettable memories with our wide range
+            of games, activities, and surprises. Join us and let the adventure begin</span>
+            <button class="fa fa-arrow-down">   Explore Down</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- park  attrection -->
+  <div class="container free">
+
+  </div>
+  <div class="container park_attraction" id="park_attraction">
+
+    <div class="row row1">
+      <div class="col-12">
+        <h2 data-aos="fade-down">Park Attractions</h2>
+      </div>
+    </div>
+
+    <div class="row row2 mt-3" data-aos="fade-up">
+      <div class="col-lg-4 col-md-6 col-sm-12  ps-3  pe-3 pt-3 pb-3 hvr-grow  hvr-underline-from-left-own ">
+        <div class="img">
+          <img src="img/freefall.avif" alt="FreeFallImg">
+        </div>
+        <h1>Free Fall</h1>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12  ps-3  pe-3 pt-3 pb-3 hvr-grow hvr-underline-from-left-own ">
+        <div class="img">
+          <img src="img/carouselhourse.avif" alt="FreeFallImg">
+        </div>
+        <h1>Carousel</h1>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12  ps-3  pe-3 pt-3 pb-3 hvr-grow hvr-underline-from-left-own ">
+        <div class="img">
+          <img src="img/rollacoster.jpg" alt="FreeFallImg">
+        </div>
+        <h1>Roller Coster</h1>
+      </div>
+      <div id="fourthone" class="col-lg-4 col-md-6 col-sm-12  ps-3  pe-3 pt-3 pb-3 hvr-grow hvr-underline-from-left-own ">
+        <div class="img">
+          <img src="img/rollacoster.jpg" alt="FreeFallImg">
+        </div>
+        <h1>Roller Coster</h1>
+      </div>
+    </div>
+
+    <div class="row row3 mt-3" data-aos="fade-up">
+      <div class="col-lg-4 col-md-6 col-sm-12  ps-3  pe-3 pt-3 pb-3 hvr-grow hvr-underline-from-left-own ">
+        <div class="img">
+          <img src="img/hangingcaro.jpg" alt="FreeFallImg">
+        </div>
+        <h1>Hanging Carousel</h1>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12  ps-3  pe-3 pt-3 pb-3 hvr-grow hvr-underline-from-left-own ">
+        <div class="img">
+          <img src="img/funnyglasses.jpg" alt="FreeFallImg">
+        </div>
+        <h1>Funny Glasses</h1>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12  ps-3  pe-3 pt-3 pb-3 hvr-grow hvr-underline-from-left-own ">
+        <div class="img">
+          <img src="img/gigglewheel.jpg" alt="FreeFallImg">
+        </div>
+        <h1>Giggle Wheel</h1>
+      </div>
+      <div id="fourthone" class="col-lg-4 col-md-6 col-sm-12  ps-3  pe-3 pt-3 pb-3 hvr-grow hvr-underline-from-left-own ">
+        <div class="img">
+          <img src="img/gigglewheel.jpg" alt="FreeFallImg">
+        </div>
+        <h1>Giggle Wheel</h1>
+      </div>
+    </div>
+
+    <div class="row row4 mt-3" data-aos="fade-up">
+      <div class="col-lg-4 col-md-6 col-sm-12  ps-3  pe-3 pt-3 pb-3  hvr-grow hvr-underline-from-left-own ">
+        <div class="img">
+          <img src="img/peetingzoo.jpg" alt="FreeFallImg">
+        </div>
+        <h1>Peeting Zoo</h1>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12  ps-3  pe-3 pt-3 pb-3 hvr-grow hvr-underline-from-left-own ">
+        <div class="img">
+          <img src="img/rockclimbingwall.jpg" alt="FreeFallImg">
+        </div>
+        <h1>Rock Climbinn Wall</h1>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12  ps-3  pe-3 pt-3 pb-3 hvr-grow hvr-underline-from-left-own ">
+        <div class="img">
+          <img src="img/gokart.jpg" alt="FreeFallImg">
+        </div>
+        <h1>Go Kart</h1>
+      </div>
+      <div id="fourthone" class="col-lg-4 col-md-6 col-sm-12  ps-3  pe-3 pt-3 pb-3 hvr-grow hvr-underline-from-left-own ">
+        <div class="img">
+          <img src="img/gokart.jpg" alt="FreeFallImg">
+        </div>
+        <h1>Go Kart</h1>
+      </div>
+    </div>
+
+    <div class="row row5">
+      <div class="col-12" data-aos="fade-up">
+        <a href="attraction.html"><button class="button hoverr">View More</button></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Park Tour -->
+  <div class="container park_tour" id="park_tour" data-aos="fade-up">
+    <div class="row row1">
+      <div class="col-12">
+        <h1>Take a <span class="logo_font">Fun/Zone</span> Tour</h1>
+        <p>Give Your Child Joy. Let's Gift Your Baby an unforgetable Experience and Funny at Our <span>Fun/Zone</span>
+        </p>
+      </div>
+    </div>
+    <div class="row row2">
+      <div class="col-12 ps-0 pe-0">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OPzou4el7to" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+
+  <!-- Birthday Parties -->
+  <div id="birthday_parties" class="container  irthday_parties" data-aos="fade-up">
+    <div class="row">
+      <div class="col_1 col-lg-6 col-md-12 col-sm-12 ">
+
+        <h1>Birthday Parties <br> in <span class="logo_font">Fun/Zone</span></h1>
+        <p class="first">You will Remember This Wounderfull Holiday!</p>
+        <p class="second_para">You will satisfied and your child will be happy. Let's arrange and unforgotale birthday
+          party! Intersting,enntertainment,attraction and ballons are wating for you!</p>
+        <button id="hoverr"><i class="fa fa-phone"></i> &nap; 0 800 555 44 33</button>
+
+      </div>
+      <div class="col_2 col-lg-6 col-md-12 col-sm-12  ps-0 pe-0">
+        <div class="first_img hvr-skew-backward">
+          <img src="img/ballons.jpg" alt="birthday_party">
+        </div>
+        <div class="second_img hvr-bob">
+          <img src="img/birthdayparty.jpg" alt="birthday_party">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- Custamer -->
+  <div class="container Guests" id="Guests" data-aos="fade-left">
+
+    <div class="row row1">
+
+      <div class="col-12">
+        <h1>Guests Love Us</h1>
+      </div>
+
+    </div>
+
+
+
+
+    <div class="owl-carousel owl-theme">
+
+
+      <div class="item hvr-bob">
+        <div class="text">
+          <i class="fa fa-quote-left"></i>
+          <p>Thank to you, we cheerfully celebrate my son's birhday. we loved all the attraction,and i recomended to
+            everyone </p>
+        </div>
+
+        <div class="text_2">
+          <span class="img"><img src="img/kylierogers.avif" alt="kylieRogers"></span>
+          <span class="span">Kylie Rogers</span>
+        </div>
+      </div>
+
+      <div class="item hvr-bob">
+        <div class="text">
+          <i class="fa fa-quote-left"></i>
+          <p>Thank you for the bright emotions.I want to came to you again,and i recommend it to everyone </p>
+        </div>
+
+        <div class="text_2">
+          <span class="img"><img src="img/peterparker.avif" alt="kylieRogers"></span>
+          <span class="span">Peter Parker</span>
+        </div>
+      </div>
+
+      <div class="item hvr-bob">
+        <div class="text">
+          <i class="fa fa-quote-left"></i>
+          <p>Thank you for the bright emotions.I want to came to you again,and i recommend it to everyone </p>
+        </div>
+
+        <div class="text_2">
+          <span class="img"><img src="img/amy.avif" alt="kylieRogers"></span>
+          <span class="span">Amy Winstiean</span>
+        </div>
+      </div>
+
+      <div class="item hvr-bob">
+        <div class="text">
+          <i class="fa fa-quote-left"></i>
+          <p>Thank you for the bright emotions.I want to came to you again,and i recommend it to everyone </p>
+        </div>
+
+        <div class="text_2">
+          <span class="img"><img src="img/alisa.avif" alt="kylieRogers"></span>
+          <span class="span">Alisa Bright</span>
+        </div>
+      </div>
+
+      <div class="item hvr-bob">
+        <div class="text">
+          <i class="fa fa-quote-left"></i>
+          <p>Thank you for the bright emotions.I want to came to you again,and i recommend it to everyone </p>
+        </div>
+
+        <div class="text_2">
+          <span class="img"><img src="img/ethan.avif" alt="kylieRogers"></span>
+          <span class="span">Ethan Steward</span>
+        </div>
+      </div>
+
+      <div class="item hvr-bob">
+        <div class="text">
+          <i class="fa fa-quote-left"></i>
+          <p>Thank you for the bright emotions.I want to came to you again,and i recommend it to everyone </p>
+        </div>
+
+        <div class="text_2">
+          <span class="img"><img src="img/kylierogers.avif" alt="kylieRogers"></span>
+          <span class="span">Kylie Rogers</span>
+        </div>
+      </div>
+
+      <div class="item hvr-bob">
+        <div class="text">
+          <i class="fa fa-quote-left"></i>
+          <p>Thank you for the bright emotions.I want to came to you again,and i recommend it to everyone </p>
+        </div>
+
+        <div class="text_2">
+          <span class="img"><img src="img/peterparker.avif" alt="kylieRogers"></span>
+          <span class="span">Peter Parker</span>
+        </div>
+      </div>
+
+      <div class="item hvr-bob">
+        <div class="text">
+          <i class="fa fa-quote-left"></i>
+          <p>Thank you for the bright emotions.I want to came to you again,and i recommend it to everyone </p>
+        </div>
+
+        <div class="text_2">
+          <span class="img"><img src="img/amy.avif" alt="kylieRogers"></span>
+          <span class="span">Amy Winstiean</span>
+        </div>
+      </div>
+
+      <div class="item hvr-bob">
+        <div class="text">
+          <i class="fa fa-quote-left"></i>
+          <p>Thank you for the bright emotions.I want to came to you again,and i recommend it to everyone </p>
+        </div>
+
+        <div class="text_2">
+          <span class="img"><img src="img/ethan.avif" alt="kylieRogers"></span>
+          <span class="span">Ethan Steward</span>
+        </div>
+      </div>
+
+      <div class="item hvr-bob">
+        <div class="text">
+          <i class="fa fa-quote-left"></i>
+          <p>Thank you for the bright emotions.I want to came to you again,and i recommend it to everyone </p>
+        </div>
+
+        <div class="text_2">
+          <span class="img"><img src="img/kylierogers.avif" alt="kylieRogers"></span>
+          <span class="span">Kylie Rogers</span>
+        </div>
+      </div>
+
+      <div class="item hvr-bob">
+        <div class="text">
+          <i class="fa fa-quote-left"></i>
+          <p>Thank you for the bright emotions.I want to came to you again,and i recommend it to everyone </p>
+        </div>
+
+        <div class="text_2">
+          <span class="img"><img src="img/amy.avif" alt="kylieRogers"></span>
+          <span class="span">Amy Winstiean</span>
+        </div>
+      </div>
+
+      <div class="item hvr-bob">
+        <div class="text">
+          <i class="fa fa-quote-left"></i>
+          <p>Thank you for the bright emotions.I want to came to you again,and i recommend it to everyone </p>
+        </div>
+
+        <div class="text_2">
+          <span class="img"><img src="img/ethan.avif" alt="kylieRogers"></span>
+          <span class="span">Ethan Steward</span>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+  <!-- upper footer -->
+  <div class="container-fluid upper_footer" id="upper_footer">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12 coll ps-0 pe-0 hvr-shrink" >
+        <a href="security.html">
+          <div class="img"><img src="img/security.avif" alt="security"></div>
+          <h1>Security</h1>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 coll ps-0 pe-0 hvr-shrink" >
+        <a href="trainer.html">
+          <div class="img"><img src="img/childrentrainer.jpg" alt="Trainer"></div>
+          <h1>Trainer</h1>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 coll ps-0 pe-0  hvr-shrink" >
+        <a href="photographer.html">
+          <div class="img"><img src="img/photographer.jpg" alt="Photographer"></div>
+          <h1>Photographer</h1>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 coll ps-0 pe-0 hvr-shrink" >
+        <a href="guider.html">
+          <div class="img"><img src="img/guider.jpg" alt="Guider"></div>
+          <h1>Guider</h1>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- footer -->
+  <div class="container-fluid footer" id="footer">
+    <div class="row row1">
+      <div class="col-12">
+        <span class="logo_font">Fun/Zone</span>
+      </div>
+    </div>
+    <div class="row row2">
+      <div class="col-12">
+        <a href="index.html" class="elements1">Home</a>
+        <a href="attraction.html" class="elements1">Attractions</a>
+        <a href="foods.html" class="elements1">Foods & Drinks</a>
+        <a href="tickets.html" class="elements1">Tickets</a>
+        <a href="events.html" class="elements1">Events</a>
+        <a href="about.html" class="elements1">About Us</a>
+        <a href="contact.html" class="elements1">Contact Us</a>
+      </div>
+    </div>
+    <div class="row row3">
+      <div class="col-12">
+        <i class="fa fa-facebook hvr-grow"></i>
+        <i class="fa fa-twitter hvr-grow"></i>
+        <i class="fa fa-instagram hvr-grow"></i>
+        <i class="fa fa-linkedin hvr-grow"></i>
+      </div>
+    </div>
+    <div class="row row4">
+      <div class="col-12">
+        <p><span class="logo_font">Fun/Zone </span>@ 2024. All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <!-- bs5  -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <!-- jQuary -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+  <!-- owl Carosal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- aos animation cdn link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration:1000
+    });
+</script>
+  <!-- autocomplete -->
+   <script src="files/autocompletefiles/jquery-ui.js"></script>
+   <script src="files/autocompletefiles/jquery-ui.min.js"></script>
+  <!-- js -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
