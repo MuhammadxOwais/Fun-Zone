@@ -1,0 +1,372 @@
+/* for univversal */
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    font-family: 'Baloo Bhai';
+   
+    }
+    .logo_font{
+        font-family: 'Lobster';
+        color: rgb(255, 187, 0) !important;
+    }
+#nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+
+#nav .logo{
+    width: 20%;
+    height: 100%;
+    
+}
+#nav .logo h1{
+    font-size: 50px;
+    font-family: 'Lobster';
+    color: rgb(255, 187, 0) !important;
+    margin-top: 0.30em;
+    margin-left: 0.90em;
+}
+#nav .elements{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav .social_links{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+#nav .elements a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.40em;    
+    margin: 0px 13px;
+}
+#nav .social_links .fa{
+    color: black;
+    margin-right: 3em;
+    font-size: 1.4em;
+}
+#nav .social_links input{
+   padding: 2px 5px;
+   width: 14em;
+   margin-right: 5px;
+   display: none;
+}
+@media (max-width: 1564px) {
+    #nav .logo h1 {
+    
+      color: black !important;
+      
+    }
+  }
+
+/* second nav */
+#second_nav{
+    display: none;
+    
+}
+#second_nav #logo{
+    color: rgb(255, 187, 0);
+}
+#navbar-toggler{
+    background-color: #36454F;
+}
+
+
+/* Tickets */
+#tickets{
+  
+   margin-bottom: 5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 3rem;
+}
+
+#tickets h1{
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 0.8em;
+}
+#tickets .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    padding: 1em 3em;
+    
+}
+#tickets .card-body .price{
+    font-size: 5em;
+}
+#tickets .card-body .Accumidation {
+    font-size: 1.2em;
+}
+#tickets .card-body .fa{
+    color: rgb(255, 187, 0);
+}
+#tickets .card-body p{
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+#tickets button{
+    padding: 0.3em 1.5em;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 1.2em;
+    margin-top: 1.5em;
+    
+  }
+  #tickets .card {
+    margin: 0em 1em;   
+    -webkit-box-shadow: -11px -4px 30px -6px rgba(156,144,144,0.64);
+    -moz-box-shadow: -11px -4px 30px -6px rgba(156,144,144,0.64);
+    box-shadow: -11px -4px 30px -6px rgba(156,144,144,0.64)  
+}
+
+
+/* faq */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap");
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    font-family: "Sora", sans-serif;
+    max-width: 991px;
+    min-width: 320px;
+    margin: 50px auto;
+    padding: 0 50px;
+    /* background-color: rgba(234, 234, 234, 0.85); */
+}
+.accordion h1 {
+    font-size: 4.5em;
+    text-align: center;
+}
+.accordion-item {
+    margin-top: 3em;
+    border: 1px solid #fcfcfc;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+.accordion-item .accordion-item-title {
+    position: relative;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    font-size: 1.3em;
+    cursor: pointer;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.accordion-item .accordion-item-desc {
+    display: none;
+    font-size: 1em;
+    line-height: 22px;
+    font-weight: 300;
+    color: #444;
+    border-top: 1px dashed #ddd;
+    padding: 10px 20px 20px;
+    box-sizing: border-box;
+    
+}
+.accordion-item input[type="checkbox"] {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+.accordion-item input[type="checkbox"]:checked ~ .accordion-item-desc {
+    display: block;
+   
+
+}
+.accordion-item
+    input[type="checkbox"]:checked
+    ~ .accordion-item-title
+    .icon:after {
+    content: "-";
+    font-size: 2em;
+    color: rgb(255, 187, 0);
+}
+.accordion-item input[type="checkbox"] ~ .accordion-item-title .icon:after {
+    content: "+";
+    font-size: 1.5em;
+    color: rgb(255, 187, 0);
+}
+.accordion-item:first-child {
+    margin-top: 0;
+}
+.accordion-item .icon {
+    margin-left: 14px;
+}
+
+@media screen and (max-width: 767px) {
+    .accordion {
+        padding: 0 16px;
+    }
+    .accordion h1 {
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+/* custamer */
+#Guests{
+    margin-top: 5rem;
+    /* background-color: rgba(234, 234, 234, 0.85); */
+    height: 35rem;
+}
+#Guests .row1 h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+/* #Guests .item {
+    border: 2px solid black;
+    
+} */
+#Guests .item .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 1em;
+    justify-content: center;
+   
+}
+#Guests .item .text  p{
+    font-size: 1.2em;
+    text-align: center;
+}
+#Guests .item i{
+   color: orangered;
+   font-size: 2em;
+   margin-bottom: 1em;
+}
+#Guests .item .text_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 1em;
+    justify-content: center;
+   
+
+}
+#Guests .item  .img{
+    height: 5em;
+    width: 6em;
+    border-radius: 100%;
+    margin-bottom: 1em;
+    
+}
+#Guests .item  .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+#Guests .item .span{
+    font-size:1.5em;
+}
+
+
+
+
+
+
+     /* upper footer */
+     #upper_footer{
+        
+        margin-top: 15rem;
+    }
+    #upper_footer .row{
+        background-color: rgb(255, 187, 0);
+    }
+    #upper_footer .coll{
+        
+        height: 27em;
+        
+    }
+    #upper_footer .coll .img{
+        height: 100%;
+        width: 100%;
+       
+        position: relative;
+        top: 0;
+        z-index: -1;
+    }
+    #upper_footer .coll img{
+        height: 100%;
+        width: 100%;
+    }
+    #upper_footer .coll h1{
+        position: relative;
+        z-index: 1;
+        top: -2em;
+       color: white;
+       display: flex;
+       justify-content: center; 
+    }
+    
+
+    /* footer */
+    #footer{
+        
+        height: 25rem;  
+        background: linear-gradient(to top, #0d0d33, #000000);
+    }
+  
+    #footer .row  .col-12{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #footer .row1  .col-12 span{
+        font-size: 2em;
+        color: white;
+        margin-top: 3em;
+    }
+    #footer .row2  .col-12 a{
+        text-decoration: none;
+        color: white;
+        margin: 2em 1.2em;
+    }
+    #footer .row3  .col-12 i{
+        color: white;
+        padding: 0.8em;
+        border: 1px solid  white;
+        border-radius: 100%;
+        margin: 0em 0.3em;
+        font-size: 1.2em;         
+    
+    }
+    #footer .row4 .col-12{
+        margin-top: 2em;
+        border-top: 1px solid white;
+    }
+    #footer .row4 .col-12 p{
+        color: white;
+        padding-top: 1em;
+
+    }
+   

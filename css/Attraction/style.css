@@ -1,0 +1,304 @@
+/* for univversal */
+*{
+    padding: 0px;
+    margin: 0px;
+    ;
+    font-family: 'Baloo Bhai';
+   
+    }
+  
+    .logo_font{
+        font-family: 'Lobster';
+        color: rgb(255, 187, 0) !important;
+    }
+    #navbar-toggler{
+        background-color: #36454F;
+    } 
+#nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#nav .logo{
+    width: 20%;
+    height: 100%;
+    
+}
+#nav .logo h1{
+    font-size: 50px;
+    font-family: 'Lobster';
+    color: rgb(255, 187, 0) !important;
+    margin-top: 0.30em;
+    margin-left: 0.90em;
+}
+#nav .elements{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav .social_links{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+#nav .elements a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.40em;    
+    margin: 0px 13px;
+}
+#nav .social_links .fa{
+    color: black;
+    margin-right: 3em;
+    font-size: 1.4em;
+}
+#nav .social_links input{
+   padding: 2px 5px;
+   width: 14em;
+   margin-right: 5px;
+   display: none;
+}
+
+
+/* second nav */
+#second_nav{
+    display: none;
+    
+}
+#second_nav #logo{
+    color: rgb(255, 187, 0);
+}
+#navbar-toggler{
+    color: black;
+}
+
+
+/* park  attraction */
+.free{
+    height: 95vh;
+}
+#park_attraction {
+    /* background-color: rgba(234, 234, 234, 0.85); */
+    margin-top: 5rem;
+}
+#park_attraction .img{
+    height: 85%;
+
+}
+#park_attraction img{
+    height: 100%;
+    width: 100%;
+
+}
+
+#park_attraction .row1 h2{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+#park_attraction .row h1{
+    margin-top: 0.50em;
+    border-bottom: 1px solid gray;
+    font-size:   2.30em;
+}
+#park_attraction .row5 .col-12{
+   
+   display: flex;
+   justify-content: center; 
+   margin-top: 2em;
+}
+#park_attraction .row5 .col-12 .button{
+    padding: 1em 3em;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(255, 187, 0);
+    font-size: 1.2em;
+    
+  }
+
+  #fourthone{
+    display: none;
+  }
+
+/* Best Celebration  */
+#best_celebration{
+    margin-top: 8rem;
+    height: 40rem;
+    position: relative;
+    /* background-color: rgba(234, 234, 234, 0.85); */
+}
+#best_celebration img{
+      height: 100%;
+      width: 100%;
+}
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.5);    
+   z-index: 1;
+   
+
+}
+.overlay .row{
+    
+    height: 100%;
+    width: 100%;
+}
+
+.overlay .col-sm-12 {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.overlay .col-sm-12 h1{
+    color: white;
+    text-align: center;
+}
+.overlay .col-sm-12 span{
+    color: red;
+}
+.overlay .col-sm-12 p{
+    color: gray;
+}
+.overlay .col-sm-12 button{
+    padding: 15px 28px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(255, 187, 0);
+      }
+
+
+
+
+
+
+
+     /* upper footer */
+     #upper_footer{
+        
+        margin-top: 15rem;
+    }
+    #upper_footer .row{
+        background-color: rgb(255, 187, 0);
+    }
+    #upper_footer .coll{
+        
+        height: 27em;
+        
+    }
+    #upper_footer .coll .img{
+        height: 100%;
+        width: 100%;
+       
+        position: relative;
+        top: 0;
+        z-index: -1;
+    }
+    #upper_footer .coll img{
+        height: 100%;
+        width: 100%;
+    }
+    #upper_footer .coll h1{
+        position: relative;
+        z-index: 1;
+        top: -2em;
+       color: white;
+       display: flex;
+       justify-content: center; 
+    }
+    
+
+    /* footer */
+    #footer{
+        
+        height: 25rem;  
+        background: linear-gradient(to top, #0d0d33, #000000);
+    }
+  
+    #footer .row  .col-12{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #footer .row1  .col-12 span{
+        font-size: 2em;
+        color: white;
+        margin-top: 3em;
+    }
+    #footer .row2  .col-12 a{
+        text-decoration: none;
+        color: white;
+        margin: 2em 1.2em;
+    }
+    #footer .row3  .col-12 i{
+        color: white;
+        padding: 0.8em;
+        border: 1px solid  white;
+        border-radius: 100%;
+        margin: 0em 0.3em;
+        font-size: 1.2em;         
+    
+    }
+    #footer .row4 .col-12{
+        margin-top: 2em;
+        border-top: 1px solid white;
+    }
+    #footer .row4 .col-12 p{
+        color: white;
+        padding-top: 1em;
+
+    }
+   
+/* hover */
+.hvr-underline-from-left-own {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-left-own:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: rgb(255, 187, 0);
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-left-own:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+  }

@@ -1,0 +1,13 @@
+#tickets .card:hover .price{
+    color: rgb(255, 187, 0);
+    transition: color 0.3s ease;
+}
+#tickets .card:hover button{
+    background-color: rgb(255, 187, 0);
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+
+

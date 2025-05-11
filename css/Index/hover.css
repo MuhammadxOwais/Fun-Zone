@@ -1,0 +1,102 @@
+/* universal */
+
+
+
+/* navbar */
+#nav .elements a {
+    position: relative;
+}
+#nav .elements a:hover:after {
+    width: 100%;
+    left: 0;
+}
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 40px;
+      }
+  }
+  #nav .elements a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(255, 187, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+#nav #search:hover {
+    color: rgb(255, 187, 0);
+    cursor: pointer;
+  }
+  #nav #login:hover{
+    cursor: pointer;
+  color: rgb(255, 187, 0);
+  
+}
+
+
+
+/* park  attraction */
+#park_attraction .row .col-lg-4:hover h1{
+    border-bottom: none;
+}
+#park_attraction  .hvr-underline-from-left{
+    text-decoration-color: rgb(255, 187, 0) !important;
+}
+
+
+/* cutamer */
+#Guests .item:hover .text{
+    background-color: rgb(255, 187, 0);
+    cursor: pointer;    
+}
+
+
+/* footer */
+#footer a {
+    position: relative;
+}
+#footer a:hover:after {
+    width: 100%;
+    left: 0;
+}
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 40px;
+      }
+  }
+  #footer a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(255, 187, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  #footer .row3 .col-12  .fa-facebook:hover{
+    color: #1877f2;
+    border-color: #1877f2;
+    cursor: pointer;
+  }
+  #footer .row3 .col-12  .fa-instagram:hover{
+    color: #833AB4;
+    border-color: #833AB4;
+    cursor: pointer;
+  }
+  #footer .row3 .col-12  .fa-twitter:hover{
+    color: #1DA1F2;
+    border-color: #1DA1F2;
+    cursor: pointer;
+  }
+  #footer .row3 .col-12  .fa-linkedin:hover{
+    color: #0077B5;
+    border-color: #0077B5;
+    cursor: pointer;
+  }
